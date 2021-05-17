@@ -49,7 +49,7 @@
             <!-- the path should end with the name without the extension e.g. if file is 'pinball.fset' the path should end with 'pinball' -->
             <a-nft
                 type="nft"
-                url="./asstes/mona/5"
+                url="./asstes/mona/trex-image"
                 smooth="true"
                 smoothCount="10"
                 smoothTolerance=".01"
@@ -62,11 +62,9 @@
                     position="50 150 0"
                 >
                 </a-entity>
-                <a-box
-                    position="-1 0.5 -3"
-                    rotation="0 45 0"
-                    color="#4CC3D9"
-                ></a-box>
+                <a-entity
+                    geometry="primitive: torus; radius: 2; radiusTubular: 0.5; arc: 180"
+                ></a-entity>
             </a-nft>
             <!-- static camera that moves according to the device movemenents -->
             <a-entity camera></a-entity>
